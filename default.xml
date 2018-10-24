@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote  name="krishnendhu" 
-		fetch="git://github.com/krishnendhu"
-		review="" />
+	<remote  name="krishnendhu" fetch="git://github.com/krishnendhu" review="" />
+	<default remote="krishnendhu" revision="master"/>
+
 	<remote name="yoctoproject" fetch="git://git.yoctoproject.org"/>
 	<remote name="openembedded" fetch="git://git.openembedded.org"/>
 
