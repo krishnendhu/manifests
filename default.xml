@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote  name="krishnendhu" fetch="git://github.com/krishnendhu" review="" />
+	<remote  name="krishnendhu" fetch="ssh://git@github.com/krishnendhu" />
 	<default remote="krishnendhu" revision="master"/>
 
-	<remote name="yoctoproject" fetch="git://git.yoctoproject.org"/>
-	<remote name="openembedded" fetch="git://git.openembedded.org"/>
-
-
-	<project name="poky" remote="yoctoproject" revision="b369e613a1d3af6439905724031aa2b75423aeee"/>
-	<project name="meta-oracle-java" remote="yoctoproject" revision="f7c98706f80a2488ad2628e5b0c6d3f9f80c24fd"/>
-	<project name="meta-openembedded" remote="openembedded" revision="a19aa29f7fa336cd075b72c496fe1102e6e5422b"/>
 </manifest>
 
